@@ -5,7 +5,7 @@ package Homeworks.homework_001;
 import java.util.Scanner;
 public class hw_001_ex_001 {
     public static void main(String[] args) {
-        Scanner user_input = new Scanner(System.in, "Cp1251");
+        Scanner user_input = new Scanner(System.in, "cp866");
         System.out.print("Введите N: ");
         int userNumber = user_input.nextInt();
         user_input.close();
