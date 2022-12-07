@@ -20,7 +20,7 @@ public class hw_002_ex_002 {
             if (switcher == 0){
                 break;
             }
-            writeToFile(unsortedArray);;
+            writeToFile(unsortedArray);
         }
         return unsortedArray;
     }
