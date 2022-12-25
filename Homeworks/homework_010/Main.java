@@ -27,7 +27,7 @@ public class Main {
                 listIter.next();
             }
         }
-        ReverseIterator rev =  mainGroup.reverseIterator();
+        ReverseIterator<Student> rev =  mainGroup.reverseIterator();
         while (rev.hasNext()){
             System.out.println("Текущая позиция" + rev.getCurrentIndex());
             System.out.println(rev.next());
