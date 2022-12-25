@@ -2,7 +2,7 @@ package Homeworks.homework_010;
 
 import java.util.Iterator;
 
-public class ReverseIterator implements Iterator<Student>{
+public class ReverseIterator<T> implements Iterator<Student>{
     private Group studentGroup;
     private int index;
 
